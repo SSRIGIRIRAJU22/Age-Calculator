@@ -69,13 +69,25 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     letter-spacing: 3px;
 }
 
-/* .btn:hover{
-    background-color: rgba(0, 0, 0, 0.755);
-} */
-
 .container span{
     color: green;
     font-size: 2.2em;
     font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 400px;
+    }
+
+    .container .btn{
+        font-size: 10px;
+        letter-spacing: normal;
+    }
+
+    .container span{
+        font-size: 10px;
+    }
+
+  }
