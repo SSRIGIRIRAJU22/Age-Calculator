@@ -76,6 +76,11 @@ input[type="date"]::-webkit-calendar-picker-indicator{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+input[type="date"] ::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
 @media screen and (max-width: 480px) {
     .container{
         width: 400px;
