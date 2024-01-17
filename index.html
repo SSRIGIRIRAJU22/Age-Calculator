@@ -12,7 +12,7 @@
     <div class="container">
         <h1>Age Calculator</h1>
         <h3>Enter you date of birth</h3>
-        <input type="date" class="date" placeholder="DD-MM-YYYY" required>
+        <input type="text" class="date" required placeholder="DD-MM-YYYY" onfocus="this.type='date'" onblur="this.type='text'">
         <button type="button" class="btn" id="btn">Calculate Age</button>
         <span></span>
     </div>
