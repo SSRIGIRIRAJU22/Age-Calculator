@@ -90,9 +90,8 @@ input[type="date"]::-webkit-calendar-picker-indicator{
         font-size: 10px;
     }
 
-     input[type=date]::-webkit-datetime-edit{
-         text-align: center;
-         width     : 100%;
-     }
+     input[type="date"] {
+      display: inline-flex
+    }
 
   }
